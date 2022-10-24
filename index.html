@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with Mark zuckerberg</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Started project -->
+
+    <div id="chat" class="chat-wrapper">
+        <div class="container">
+            <div class="chat-upper">
+                <div class="chat__iconable">
+                    <span></span>
+                    <strong>MARK ZUCKERBERG</strong>
+                    <div class="icon">
+                        <img onclick="myFunction()" src="./img/close-icon.svg" alt="Close icon">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chat section -->
+            <div class="wrapper-content">
+                <div class="wrapper-upper">
+                    <h4>TODAY</h4>
+                    <div class="chat__sections">
+                        <ul class="chat__list">
+                            <time>10:53</time>
+                            <div class="chat__box">
+                                <span class="chat-1"></span>
+                                <li>Hi, Mark! I made a new design for Messenger App.</li>
+                            </div>
+                        </ul>
+
+                        <!-- 2 - line -->
+                        <ul class="chat__list chat__list--second">
+                            <time>10:57</time>
+                            <div class="chat__box">
+                                <span class="chat-2"></span>
+                                <li>Yo! Send it to my assistant and we’ll review it during the year.
+                                </li>
+                            </div>
+                        </ul>
+
+                        <!-- 3 - line -->
+                        <ul class="chat__list">
+                            <time>11:03</time>
+                            <div class="chat__box">
+                                <span class="chat-1"></span>
+                                <li class="chat-third__line">But Mark...</li>
+                            </div>
+                        </ul>
+
+                        <!-- 4 - line -->
+                        <ul class="chat__list chat__list--last">
+                            <div class="chat__box">
+                                <li class="chat-fourth__line">You were blocked by the user.</li>
+                            </div>
+                        </ul>
+
+                        <!-- Form action -->
+                        <form action="https://echo.htmlacademy.ru/" method="post">
+                            <div class="chat-form__input">
+                                <input type="text" name="message" placeholder="Enter your message"
+                                    aria-label="Enter your message" required>
+                                <button type="submit">SEND</button>
+                            </div>
+                        </form>
+
+                        <!-- Form action -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Chat section -->
+    </div>
+    <!-- Upper -->
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
